@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\New\\source\\repos\\dz2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C065482F-6A4D-40F9-82E2-B149434D287E}|dz2\\dz2.vcxproj|C:\\Users\\New\\source\\repos\\dz2\\dz2\\dz2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C065482F-6A4D-40F9-82E2-B149434D287E}|dz2\\dz2.vcxproj|solutionrelative:dz2\\dz2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "dz2.c",
+              "DocumentMoniker": "C:\\Users\\New\\source\\repos\\dz2\\dz2\\dz2.c",
+              "RelativeDocumentMoniker": "dz2\\dz2.c",
+              "ToolTip": "C:\\Users\\New\\source\\repos\\dz2\\dz2\\dz2.c*",
+              "RelativeToolTip": "dz2\\dz2.c*",
+              "ViewState": "AgIAADAAAAAAAAAAAAAYwEoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-09-23T19:13:03.43Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
