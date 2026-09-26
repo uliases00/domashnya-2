@@ -35,75 +35,75 @@ int main()<br>
 {<br>
 	setlocale(LC_CTYPE, ".UTF-8");<br>
 
-	float div, chem, sak, kor, kart, dog;<br>
-	float N, V;<br>
-	float bag, dopB, dopR, OBdop;<br>
+	float div, chem, sak, kor, kart, dog;
+	float N, V;
+	float bag, dopB, dopR, OBdop;
 
-	puts("Введите вес дивана:");<br>
-	scanf("%f", &div);<br>
-	printf("Введено число %f\n", div);<br>
+	puts("Введите вес дивана:");
+	scanf("%f", &div);
+	printf("Введено число %f\n", div);
 
-	puts("Введите вес чемодана:");<br>
-	scanf("%f", &chem);<br>
-	printf("Введено число %f\n", chem);<br>
+	puts("Введите вес чемодана:");
+	scanf("%f", &chem);
+	printf("Введено число %f\n", chem);
 
-	puts("Введите вес саквояжа:");<br>
-	scanf("%f", &sak);<br>
-	printf("Введено число %f\n", sak);<br>
+	puts("Введите вес саквояжа:");
+	scanf("%f", &sak);
+	printf("Введено число %f\n", sak);
 
-	puts("Введите вес корзинки:");<br>
-	scanf("%f", &kor);<br>
-	printf("Введено число %f\n", kor);<br>
+	puts("Введите вес корзинки:");
+	scanf("%f", &kor);
+	printf("Введено число %f\n", kor);
 
-	puts("Введите вес картонки:");<br>
-	scanf("%f", &kart);<br>
-	printf("Введено число %f\n", kart);<br>
+	puts("Введите вес картонки:");
+	scanf("%f", &kart);
+	printf("Введено число %f\n", kart);
+	
+	puts("Введите вес собаки:");
+	scanf("%f", &dog);
+	printf("Введено число %f\n", dog);
 
-	puts("Введите вес собаки:");<br>
-	scanf("%f", &dog);<br>
-	printf("Введено число %f\n", dog);<br>
+	puts("Введите стоимость 1 кг лишнего багажа N:");
+	scanf("%f", &N);
+	printf("Введено число %f\n", N);
 
-	puts("Введите стоимость 1 кг лишнего багажа N:");<br>
-	scanf("%f", &N);<br>
-	printf("Введено число %f\n", N);<br>
+	puts("Введите стоимость 1 кг лишней ручной клади V:");
+	scanf("%f", &V);
+	printf("Введено число %f\n", V);
 
-	puts("Введите стоимость 1 кг лишней ручной клади V:");<br>
-	scanf("%f", &V);<br>
-	printf("Введено число %f\n", V);<br>
+	puts("ВАЖНО! Собачку нельзя направлять в багажное помещение, так как там холодно!");
 
-	puts("ВАЖНО! Собачку нельзя направлять в багажное помещение, так как там холодно!");<br>
+	bag = div + chem + sak + kor + kart + dog;
+	
+	if (bag > 20)
+	{
+		dopB = (bag - 20) * N;
+	}
 
-	bag = div + chem + sak + kor + kart + dog;<br>
+	else
+	{
+		dopB = 0;
+	}
 
-	if (bag > 20)<br>
-	{<br>
-		dopB = (bag - 20) * N;<br>
-	}<br>
+	if (dog > 5)
+	{
+		dopR = (dog - 5) * V;
+	}
 
-	else<br>
-	{<br>
-		dopB = 0;<br>
-	}<br>
+	else
+	{
+		dopR = 0;
+	}
 
-	if (dog > 5)<br>
-	{<br>
-		dopR = (dog - 5) * V;<br>
-	}<br>
+	OBdop = dopB + dopR;
 
-	else<br>
-	{<br>
-		dopR = 0;<br>
-	}<br>
+	printf("\nВес багажа: %.2f кг\n", bag);
+	printf("\nВес ручной клади: %.2f кг\n", dog);
+	printf("\nДоплата за багаж: %.2f руб\n", dopB);
+	printf("\nДоплата за ручную кладь: %.2f руб\n", dopR);
+	printf("\nОбщая доплата: %.2f руб\n", OBdop);
 
-	OBdop = dopB + dopR;<br>
-
-	printf("\nВес багажа: %.2f кг\n", bag);<br>
-	printf("\nВес ручной клади: %.2f кг\n", dog);<br>
-	printf("\nДоплата за багаж: %.2f руб\n", dopB);<br>
-	printf("\nДоплата за ручную кладь: %.2f руб\n", dopR);<br>
-	printf("\nОбщая доплата: %.2f руб\n", OBdop);<br>
-
-	return 0;<br>
+	return 0;
 }<br>
 <h2>Результат работы программы</h2><br>
 исходные данные:<br>
