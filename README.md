@@ -25,7 +25,7 @@
 4)Вывод результата<br>
 5)Конец<br>
 <h2>Диаграма</h2>
-<img width="98" height="301" alt="image" src="https://github.com/uliases/domashnya-2/blob/main/%D0%94%D0%B8%D0%B0%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0.png" />
+<img width="98" height="301" alt="image" src="https://github.com/uliases00/domashnya-2/blob/main/%D0%94%D0%B8%D0%B0%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0.png" />
 <h2>Реализация программы</h2>
 #define _CRT_SECURE_NO_WARNINGS<br>
 #include <locale.h><br>
